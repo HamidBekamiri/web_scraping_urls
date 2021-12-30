@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import xmltodict
-from pandas import json_normalize
 import urllib.request
 import seaborn as sns
 import matplotlib
