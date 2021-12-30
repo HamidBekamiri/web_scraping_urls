@@ -7,7 +7,6 @@ import seaborn as sns
 import matplotlib
 from matplotlib.figure import Figure
 from PIL import Image
-from streamlit_lottie import st_lottie
 import requests
 st.set_page_config(layout="wide", page_title="Element Solutions Recommender System", page_icon="🐞")
 
