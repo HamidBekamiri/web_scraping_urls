@@ -1,4 +1,3 @@
-from matplotlib.backends.backend_agg import RendererAgg
 import streamlit as st
 import numpy as np
 import pandas as pd
