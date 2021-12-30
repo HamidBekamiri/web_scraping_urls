@@ -4,7 +4,7 @@ BeautifulSoup4
 streamlit
 numpy
 xmltodict
-
+wordcloud
 seaborn
 matplotlib
 
