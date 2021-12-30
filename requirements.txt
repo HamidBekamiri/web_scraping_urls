@@ -1,2 +1,13 @@
 pandas
-
+TracebackType
+RendererAgg
+streamlit
+numpy
+xmltodict
+json_normalize
+urllib.request
+seaborn
+matplotlib
+gender_guesser.detector
+st_lottie
+requests
