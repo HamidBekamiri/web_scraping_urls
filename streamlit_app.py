@@ -17,6 +17,8 @@ matplotlib.use("agg")
 
 
 sns.set_style('darkgrid')
+import nltk
+nltk.download('punkt')
 
 def get_txt_urls (urls):
     listofdf_urls = []
