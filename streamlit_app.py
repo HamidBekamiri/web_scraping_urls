@@ -100,6 +100,7 @@ def get_tabel_content(df_url_all):
     stop_words = stopwords.words('english')
     from nltk.stem import PorterStemmer
     X = df_url_all['sentences']
+    print(X)
     corpus = [word_tokenize(token) for token in X]
     lowercase_train = [[token.lower() for token in doc] for doc in corpus]
     alphas = [[token for token in doc if token.isalpha()] for doc in lowercase_train]
