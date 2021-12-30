@@ -8,6 +8,8 @@ import matplotlib
 from matplotlib.figure import Figure
 from PIL import Image
 import requests
+import nltk
+
 st.set_page_config(layout="wide", page_title="Element Solutions Recommender System", page_icon="🐞")
 
 st.header("🐞 Web Scraping Based on Urls!")
@@ -17,8 +19,12 @@ matplotlib.use("agg")
 
 
 sns.set_style('darkgrid')
-import nltk
-nltk.download('punkt')
+
+@st.cache
+def nltk_down():
+    nltk.download('punkt')
+    
+nltk_down()
 
 def get_txt_urls (urls):
     listofdf_urls = []
