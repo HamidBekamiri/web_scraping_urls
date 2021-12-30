@@ -1,5 +1,5 @@
 pandas
-word_tokenize
+nltk
 BeautifulSoup4
 streamlit
 numpy
