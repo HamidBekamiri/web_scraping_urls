@@ -1,5 +1,5 @@
 pandas
-BeautifulSoup
+from bs4 import BeautifulSoup
 
 streamlit
 numpy
