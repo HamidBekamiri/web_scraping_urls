@@ -8,5 +8,4 @@ xmltodict
 seaborn
 matplotlib
 
-st_lottie
 requests
