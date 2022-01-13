@@ -43,7 +43,7 @@ def get_txt_urls (urls):
         # response_text -> The downloaded webpage
         # lxml -> Used for processing HTML and XML pages
         soup = BeautifulSoup(response.content,features="html.parser")
-        st.write(soup)
+        st.write(soup.prettify())
         # rating_list_q = soup.find_all(class_ = 'wide')
         # with open("output1.html", "w") as file:
         #         file.write(str(soup.find_all(class_ = 'wide')))
