@@ -46,7 +46,7 @@ def get_txt_urls (urls):
         # rating_list_q = soup.find_all(class_ = 'wide')
         # with open("output1.html", "w") as file:
         #         file.write(str(soup.find_all(class_ = 'wide')))
-        # st.write(soup.find(class_ = 'wide').get_text())
+        st.write(soup.find(class_ = 'wide').get_text())
         ratings = []
         ratings.append(soup.find(class_ = 'wide').get_text())
         # As we saw the rating's class name was "ratings-bar" 
